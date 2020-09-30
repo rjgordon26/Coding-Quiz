@@ -1,0 +1,51 @@
+
+body {
+    background-color: lightslategray;
+}
+
+section {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    padding: 5px;
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 120%;
+    box-shadow: 0 0 10px 2px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px;
+}
+
+.btn {
+    border: 1px;
+    border-radius: 5px;
+    background-color: lightseagreen;
+    font-size: 1.2rem;
+}
+
+.start-btn, .next-btn {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
